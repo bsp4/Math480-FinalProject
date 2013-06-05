@@ -1,0 +1,17 @@
+
+\documentclass[12pt]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\title{The Simplex Algorithm}
+\author{Andrea Gagliano, Melissa Jones, Gary Morales, Brian Purviance}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This document utilizes Sage to implement George Bernard Dantzig's simplex algorithm of maximazation/minimization for a given linear equation subject to specific linear constraints. Primal, and duality methods are applied as well as Bland's rule for pivoting to avoid algorithmic cycling. This is implementation in meant as a tutorial.
+\end{abstract}
